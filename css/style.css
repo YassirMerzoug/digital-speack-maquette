@@ -1,0 +1,558 @@
+/* font family */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700;800&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Roboto&family=Vampiro+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Six+Caps&display=swap");
+
+/* Globale */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* start header */
+.note-header {
+  background: #1a1a1a;
+  color: #fff;
+  text-align: center;
+}
+.note-header p {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 18px;
+}
+/* end header */
+
+/* start home */
+.home {
+  background: #d32e34;
+  padding: 40px 52px;
+}
+.child-one {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 10px;
+}
+
+.left-side {
+  word-wrap: break-word;
+}
+
+.logo {
+  top: 100%;
+  position: relative;
+}
+
+.home .child-one .title {
+  color: #fff;
+  font: 700 45px/60px "Poppins", sans-serif;
+  padding: 65px 0;
+  top: 100%;
+  position: relative;
+}
+
+.p-home {
+  top: 100%;
+  position: relative;
+}
+
+.home .child-one .p-home {
+  color: #fff;
+  font: 600 14px/12px "Poppins", sans-serif;
+  letter-spacing: 1px;
+  padding: 0 0 65px 0;
+}
+
+.home .child-one .link-home {
+  display: inline-block;
+  border-radius: 12px;
+  background: #1a1a1a;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 9px 30px;
+}
+
+.home .child-one .link-home .first,
+.home .child-one .link-home .second {
+  display: block;
+}
+
+.home .child-one .link-home .first {
+  font: 600 22px/22px "Poppins", sans-serif;
+}
+
+.home .child-one .link-home .second {
+  font: 500 11px/11px "Poppins", sans-serif;
+}
+
+.right-side .rs-pic {
+  word-wrap: break-word;
+  position: relative;
+}
+
+.right-side .rs-pic .cadre-img {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.triangle-box {
+  position: absolute;
+  right: 8%;
+  top: 25%;
+  z-index: 10;
+}
+
+.child-two {
+  text-align: right;
+  padding: 160px 50px 0 0;
+}
+.child-two button {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.child-two button img {
+  width: 70px;
+  height: 70px;
+}
+
+.child-three {
+  color: white;
+  text-align: center;
+  margin: 40px;
+}
+
+.partners {
+  font: 400 35px/60px "Poppins", sans-serif;
+  margin-right: 100px;
+}
+
+.partners .dot {
+  display: block;
+  margin-bottom: -20px;
+  font-size: 60px;
+}
+.partners {
+  display: inline-block;
+}
+
+.partners1 {
+  font: 500 35px/60px "Bebas Neue", sans-serif;
+  margin-right: 100px;
+}
+.partners2 {
+  font: 700 35px/60px "Vampiro One", sans-serif;
+  margin-right: 100px;
+}
+.partners3 {
+  font: 700 35px/60px "Vampiro One", sans-serif;
+  margin-right: 100px;
+}
+.partners4 {
+  font: 700 35px/60px "Anton", sans-serif;
+}
+/* end home */
+
+/* start action */
+
+.action-section {
+  background: #fff;
+  padding: 45px 45px 70px 45px;
+  position: relative;
+}
+
+.triangle-action {
+  position: absolute;
+  transform: rotate(290deg);
+  top: -6%;
+}
+
+.action-tiltle {
+  text-align: center;
+  font: 400 35px/48px "Poppins", sans-serif;
+}
+
+.action-tiltle .title {
+  color: #d32e34;
+}
+
+.action-tiltle .title1 {
+  color: #1a1a1a;
+}
+
+.action-content {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  grid-gap: 10px;
+  margin-top: 0px;
+  text-align: center;
+  padding-bottom: 140px;
+}
+
+.info-action {
+  background: #fff;
+  margin-top: 70px;
+  position: relative;
+  left: -100%;
+}
+
+.info-title {
+  font: 700 20px/20px "Poppins", sans-serif;
+  text-align: center;
+}
+
+.info-title span {
+  color: #d32e34;
+}
+
+.info-action p {
+  color: #1a1a1a;
+  font: 500 16px/32px "Montserrat", sans-serif;
+  text-align: justify;
+  padding: 25px 48px 30px;
+}
+
+.action-content .info-action .link-home {
+  display: inline-block;
+  border-radius: 12px;
+  background: #1a1a1a;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 9px 30px;
+}
+
+.action-content .info-action .link-home .first,
+.action-content .info-action .link-home .second {
+  display: block;
+}
+
+.action-content .info-action .link-home .first {
+  font: 600 22px/22px "Poppins", sans-serif;
+}
+
+.action-content .info-action .link-home .second {
+  font: 500 11px/11px "Poppins", sans-serif;
+}
+
+.pic-action {
+  word-wrap: break-word;
+  background: #fff;
+  position: relative;
+  right: -150%;
+}
+
+.action-link {
+  position: absolute;
+  background: #d32e34;
+  bottom: -18%;
+  right: 42%;
+  text-decoration: none;
+  color: white;
+  font: 600 14px/32px "Montserrat", sans-serif;
+  padding: 0 8px;
+  border-radius: 10px;
+}
+
+.tringle-rouge {
+  background: #d32e34;
+  width: 400px;
+  height: 400px;
+  clip-path: polygon(0 0, 29% 100%, 100% 39%);
+  position: absolute;
+  top: 70px;
+  z-index: 1;
+}
+
+.action-imge {
+  position: absolute;
+  left: 0;
+  z-index: 2;
+}
+
+/* end action */
+
+/* start secret */
+
+.secret-section {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  /* grid-gap: 10px; */
+  margin-top: 0px;
+  text-align: center;
+}
+
+.secret-left,
+.secret-right {
+  background: #d32e34;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.secret-logo {
+  transform: rotate(-90deg);
+}
+
+.secret-middle {
+  background: #eeeded;
+  position: relative;
+}
+
+.secret-title {
+  font: 700 50px/50px "Poppins", sans-serif;
+  padding: 0 40px;
+  margin-top: -40px;
+}
+
+.secret-title span {
+  color: #d33a2e;
+}
+
+.secret-cards {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  justify-content: space-around;
+}
+
+.cards-logo .round {
+  width: 80px;
+  position: absolute;
+  left: 13%;
+  top: 16%;
+}
+
+.img-cards {
+  width: 50px;
+  position: absolute;
+  left: 14.5%;
+  top: 17.5%;
+  z-index: 1;
+}
+
+.cards-logo .round1 {
+  width: 80px;
+  position: absolute;
+  left: 47%;
+  top: 16%;
+}
+
+.img-cards1 {
+  width: 50px;
+  position: absolute;
+  left: 48.5%;
+  top: 18%;
+  z-index: 1;
+}
+
+.cards-logo .round2 {
+  width: 80px;
+  position: absolute;
+  right: 13%;
+  top: 16%;
+}
+
+.img-cards2 {
+  width: 40px;
+  position: absolute;
+  right: 14.7%;
+  top: 19%;
+  z-index: 1;
+}
+
+.card-title {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font: 600 20px/20px "Poppins", sans-serif;
+}
+
+.cards-content {
+  background: #d9d9d9;
+  font: 400 16px/32px "Montserrat", sans-serif;
+  padding: 24px;
+  margin-top: 40%;
+  margin-bottom: 10px;
+  height: 300px;
+}
+
+.card-span {
+  color: rgba(0, 0, 0, 0.5);
+  font: 700 35px/35px "Poppins", sans-serif;
+}
+
+.middle-paragraph {
+  text-align: center;
+  font: 400 16px/32px "Montserrat", sans-serif;
+  margin: 30px 110px;
+}
+
+.secret-middle .link-home {
+  display: inline-block;
+  border-radius: 12px;
+  background: #1a1a1a;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 9px 30px;
+  margin-bottom: 30px;
+}
+
+.secret-middle .link-home .first,
+.home .child-one .link-home .second {
+  display: block;
+}
+
+.secret-middle .link-home .first {
+  font: 600 22px/22px "Poppins", sans-serif;
+}
+
+.secret-middle .link-home .second {
+  font: 500 11px/11px "Poppins", sans-serif;
+}
+
+/* end secret */
+
+/* start conseil */
+
+.conseil {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 10px;
+  padding: 70px 0;
+}
+
+.conseil .conseil-one {
+  padding: 40px;
+}
+
+.conseil .conseil-one p span {
+  color: #d32e34;
+  font-weight: bold;
+}
+
+.conseil .conseil-one p {
+  font: 500 17px/32px "Montserrat", sans-serif;
+  padding: 15px 35px;
+  text-align: justify;
+  line-height: 33px;
+  display: block;
+}
+
+.conseil h3 {
+  color: #1a1a1a;
+  font: 700 41px/40px "Poppins", sans-serif;
+  padding: 0 0 0 35px;
+}
+
+.conseil .conseil-one .link-home {
+  display: inline-block;
+  border-radius: 12px;
+  background: #d32e34;
+  color: #fff;
+  text-decoration: none;
+  padding: 9px 30px;
+  margin: 0 35px;
+}
+
+.conseil .conseil-one .link-home .first,
+.conseil .conseil-one .link-home .second {
+  display: block;
+}
+
+.conseil .conseil-one .link-home .first {
+  font: 600 22px/22px "Poppins", sans-serif;
+}
+
+.conseil .conseil-one .link-home .second {
+  font: 500 11px/11px "Poppins", sans-serif;
+}
+
+.conseil .conseil-two {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.conseil-img {
+  position: relative;
+  right: -120%;
+  z-index: -1;
+}
+
+.mehdi-conseil {
+  margin-top: 88px;
+}
+
+.me {
+  position: absolute;
+  color: #d32e34;
+  font: 500 300px/320px "Six Caps", sans-serif;
+  top: 0;
+  left: 100%;
+}
+
+.hdi {
+  position: absolute;
+  color: white;
+  font: 500 300px/320px "Six Caps", sans-serif;
+  bottom: -6%;
+  right: -100%;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #d32e34;
+}
+
+/* end conseil */
+
+/* start footer */
+
+.footer-section {
+  text-align: center;
+  background: #1a1a1a;
+  color: white;
+  padding: 40px 0 20px 0;
+}
+
+.footer-links {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.footer-links span {
+  margin-left: 30px;
+  font: 300 16px/16px "Montserrat", sans-serif;
+}
+
+.dot-links {
+  vertical-align: top;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.footer-fp {
+  font: 400 12px/32px "Montserrat", sans-serif;
+  display: block;
+  padding: 0 120px;
+  text-align: center;
+  padding: 0 0 30px 0;
+}
+
+.footer-sp,
+.footer-tp {
+  color: #d32e34;
+  font: 600 14px/32px "Montserrat", sans-serif;
+}
+/* end footer */
